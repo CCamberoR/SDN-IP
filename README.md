@@ -84,8 +84,8 @@ sudo util/install.sh -a
 
 1. **Clonar el repositorio**
 ```bash
-git clone <repository-url>
-cd SDN-IP-main
+git clone https://github.com/CCamberoR/SDN-IP.git
+cd SDN-IP
 ```
 
 2. **Instalar dependencias de Python**
