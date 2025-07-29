@@ -1,0 +1,34 @@
+# SDN-IP Project Requirements
+# Software-Defined Networking project using POX controller and Mininet
+
+# Core networking and SDN dependencies
+# Note: Mininet is typically installed system-wide and not via pip
+
+# Python standard library enhancements
+ipaddress>=1.0.23        # IP address manipulation (usually included in Python 3.3+)
+
+# Optional dependencies for development and debugging
+netaddr>=0.8.0           # Network address manipulation
+pytz>=2021.1             # Timezone handling
+six>=1.16.0              # Python 2/3 compatibility utilities
+
+# Development and testing tools (optional)
+# Uncomment if needed for development
+# pytest>=6.0.0           # Testing framework
+# flake8>=3.8.0            # Code linting
+# black>=21.0.0            # Code formatting
+
+# Note: The following dependencies are typically installed system-wide:
+# - mininet: sudo apt install mininet
+# - openvswitch: sudo apt install openvswitch-switch
+# - POX controller: Included in this project under controller/ directory
+
+# Platform-specific notes:
+# Ubuntu/Debian: sudo apt install python3-dev python3-pip mininet openvswitch-switch
+# CentOS/RHEL: sudo yum install python3-devel python3-pip openvswitch
+# Fedora: sudo dnf install python3-devel python3-pip openvswitch mininet
+
+# For virtual environment setup:
+# python3 -m venv venv
+# source venv/bin/activate  # On Linux/Mac
+# pip install -r requirements.txt
